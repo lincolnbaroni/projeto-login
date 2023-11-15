@@ -15,19 +15,21 @@ Grandes telas: acima de 1200px
         background-image: linear-gradient(to top, #A2C579, #d3de32);
     }
     section#login {
-        width: 90vw;
+        width: 90%;
         height: 320px;
     }
 
     section#login > div#imagem {
         float: left;
-        width: 230px;
+        width: 270px;
         height: 100%;
+        background-size: cover;
+        background-position: center;
     }
 
     section#login > div#form {
         float: right;
-        width: 73%;
+        width: 60%;
     }
 
     form > input[type=submit] {
@@ -71,6 +73,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 1200px) {
 section#login {
     width: 95vw;
-    height: 95vh;
+    height: 700px;
+    
 }
 }
